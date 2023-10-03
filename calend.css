@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(220, 243, 238);
+}
+
+.wraper {
+    max-width: 760px;
+    margin: 10px auto;
+    background-color: rgb(58, 58, 105);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.daysWeek {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(214, 159, 159);
+}
+
+.numbersWeek  {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.daysWeek span{
+    color: rgb(218, 217, 205);
+    font-weight: bold;
+    display: inline-block;
+    width: 14%;
+}
+
+.numbersWeek span {
+    display: inline-block;
+    color: rgb(214, 201, 201);
+    width: 14%;
+    margin-bottom: 8px;
+    margin: 8px 0;
+}
+
+.mesAnterior {
+    opacity: 0.5;
+    margin: 8px 0 5px 1px;
+}
+
+.daySelect {
+    text-decoration: underline red;
+    text-decoration-thickness: 3px;
+}
